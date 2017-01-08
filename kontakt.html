@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--bootstrap and jquery libs to be taken from net instead of putting them onto the hdd-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <!--our style sheets for fonts, colors etc.-->
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+  <body>
+    <!--title bellow-->
+    <div class="container-fluid">
+    <div class="col-lg-6">
+      <h1 class="h1">Priroda u sluzbi zdravlja</h1>
+    </div>
+    <div class="col-lg-6">
+      <img src="#" alt="logo" width="150" height="100">
+    </div>
+  </div>
+
+  <!--title bar or a navbar (not using navbar)-->
+  <div class="container-fluid">
+    <div class="col-md-2">
+      <a href="index.html">Naslovnica</a>
+    </div>
+    <div class="col-md-2">
+      <a href="recepti.html">Recepti</a>
+    </div>
+    <div class="col-md-2">
+      <a href="ljekovitoBilje.html">Ljekovito Bilje</a>
+    </div>
+    <div class="col-md-2">
+      <a href="zdravaPrehrana.html">Zdrava Prehrana</a>
+    </div>
+    <div class="col-md-2">
+      <a href="kontakt.html">Kontakt</a>
+    </div>
+  </div>
+
+  <!--unique content of the contact page-->
+  <div class="container-fluid" id="contactDiv">
+    <h1 class="h1">Kontakt</h1>
+    <form action="index.html">
+      E-mail: <input type="text" name="email"><br>
+      Full Name: <input type="text" name="fname"><br>
+      Message: <input type="text" name="msg"><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  </body>
+</html>

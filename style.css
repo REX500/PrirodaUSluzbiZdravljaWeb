@@ -1,0 +1,9 @@
+#contactDiv{
+  text-align: center;
+}
+/* styling the h1 elements */
+
+.h1{
+  font-family: monospace;
+  font: 34px;
+}
